@@ -1,0 +1,13 @@
+<library path="rviz2_views_move_plugin">
+
+  <!-- Displays plugins -->
+  <class
+    name="rviz_default_plugins/MoveOrbit"
+    type="rviz_default_plugins::view_controllers::MoveOrbitViewController"
+    base_class_type="rviz_common::ViewController"
+  >
+    <description>
+      Makes it easy to move around a given point in space, looking at it from any angle.
+    </description>
+  </class>
+</library>

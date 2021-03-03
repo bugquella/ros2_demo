@@ -1,0 +1,23 @@
+[0.510s] Invoking command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber build --build-base /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/build install --prefix /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber --record /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[0.731s] running egg_info
+[0.732s] writing /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[0.732s] writing dependency_links to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[0.733s] writing entry points to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[0.733s] writing requirements to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[0.734s] writing top-level names to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[0.764s] reading manifest file '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.766s] writing manifest file '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.766s] running build_py
+[0.767s] running install
+[0.767s] running install_lib
+[0.768s] running install_data
+[0.769s] running install_egg_info
+[0.771s] removing '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber-0.9.2-py3.6.egg-info' (and everything under it)
+[0.771s] Copying /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages/examples_rclpy_minimal_subscriber-0.9.2-py3.6.egg-info
+[0.772s] running install_scripts
+[0.794s] Installing subscriber_lambda script to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.796s] Installing subscriber_member_function script to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.797s] Installing subscriber_old_school script to /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.798s] writing list of installed files to '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/install.log'
+[0.834s] Invoked command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber build --build-base /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/build install --prefix /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber --record /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

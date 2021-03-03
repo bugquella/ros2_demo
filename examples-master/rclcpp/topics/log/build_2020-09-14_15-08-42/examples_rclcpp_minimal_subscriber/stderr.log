@@ -1,0 +1,16 @@
+[01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:[m[K In constructor ‘[01m[KMinimalSubscriberWithTopicStatistics::MinimalSubscriberWithTopicStatistics()[m[K’:
+[01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktopic_stats_options[m[K’; did you mean ‘[01m[Kto_rcl_subscription_options[m[K’?
+     options.[01;31m[Ktopic_stats_options[m[K.state = rclcpp::TopicStatisticsState::Enable;
+             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+             [32m[Kto_rcl_subscription_options[m[K
+[01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:31:49:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::TopicStatisticsState[m[K’ has not been declared
+     options.topic_stats_options.state = rclcpp::[01;31m[KTopicStatisticsState[m[K::Enable;
+                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:34:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktopic_stats_options[m[K’; did you mean ‘[01m[Kto_rcl_subscription_options[m[K’?
+     options.[01;31m[Ktopic_stats_options[m[K.publish_period = std::chrono::seconds(10);
+             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+             [32m[Kto_rcl_subscription_options[m[K
+make[2]: *** [CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o] Error 1
+make[1]: *** [CMakeFiles/subscriber_member_function_with_topic_statistics.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

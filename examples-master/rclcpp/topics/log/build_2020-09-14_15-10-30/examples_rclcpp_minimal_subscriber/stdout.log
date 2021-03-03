@@ -1,0 +1,32 @@
+[ 25%] Built target subscriber_lambda
+[ 50%] Built target subscriber_member_function
+[35m[1mScanning dependencies of target subscriber_member_function_with_topic_statistics[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[ 87%] Built target subscriber_not_composable
+[100%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[100%] Built target subscriber_member_function_with_topic_statistics
+[ 25%] Built target subscriber_lambda
+[ 50%] Built target subscriber_member_function
+[ 75%] Built target subscriber_member_function_with_topic_statistics
+[100%] Built target subscriber_not_composable
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+-- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+-- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+-- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics" to ""
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+-- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+-- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

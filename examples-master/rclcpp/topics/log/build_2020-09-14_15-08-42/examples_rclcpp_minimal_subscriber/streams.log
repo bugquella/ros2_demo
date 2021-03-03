@@ -1,0 +1,79 @@
+[0.026s] Invoking command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber
+[0.238s] -- The C compiler identification is GNU 7.5.0
+[0.303s] -- The CXX compiler identification is GNU 7.5.0
+[0.315s] -- Check for working C compiler: /usr/bin/cc
+[0.393s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.393s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.470s] -- Detecting C compile features
+[0.678s] -- Detecting C compile features - done
+[0.680s] -- Check for working CXX compiler: /usr/bin/c++
+[0.757s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.757s] -- Detecting CXX compiler ABI info
+[0.837s] -- Detecting CXX compiler ABI info - done
+[0.841s] -- Detecting CXX compile features
+[1.199s] -- Detecting CXX compile features - done
+[1.206s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.247s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.478s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.503s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.553s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.558s] -- Looking for pthread.h
+[1.631s] -- Looking for pthread.h - found
+[1.632s] -- Looking for pthread_create
+[1.706s] -- Looking for pthread_create - not found
+[1.707s] -- Looking for pthread_create in pthreads
+[1.769s] -- Looking for pthread_create in pthreads - not found
+[1.769s] -- Looking for pthread_create in pthread
+[1.840s] -- Looking for pthread_create in pthread - found
+[1.841s] -- Found Threads: TRUE  
+[1.878s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.925s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.009s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.010s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.010s] -- Configured cppcheck include dirs: 
+[2.011s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.012s] -- Added test 'lint_cmake' to check CMake code style
+[2.014s] -- Added test 'uncrustify' to check C / C++ code style
+[2.014s] -- Added test 'xmllint' to check XML markup files
+[2.017s] -- Configuring done
+[2.059s] -- Generating done
+[2.059s] -- Build files have been written to: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber
+[2.074s] Invoked command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_subscriber
+[2.075s] Invoking command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake --build /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber -- -j2 -l2
+[2.136s] [35m[1mScanning dependencies of target subscriber_lambda[0m
+[2.139s] [35m[1mScanning dependencies of target subscriber_member_function[0m
+[2.203s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[2.207s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[8.982s] [ 37%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[9.129s] [ 50%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[9.228s] [ 50%] Built target subscriber_member_function
+[9.241s] [35m[1mScanning dependencies of target subscriber_member_function_with_topic_statistics[0m
+[9.273s] [ 62%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[9.383s] [ 62%] Built target subscriber_lambda
+[9.395s] [35m[1mScanning dependencies of target subscriber_not_composable[0m
+[9.481s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[10.727s] [01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:[m[K In constructor ‘[01m[KMinimalSubscriberWithTopicStatistics::MinimalSubscriberWithTopicStatistics()[m[K’:
+[10.728s] [01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:31:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktopic_stats_options[m[K’; did you mean ‘[01m[Kto_rcl_subscription_options[m[K’?
+[10.728s]      options.[01;31m[Ktopic_stats_options[m[K.state = rclcpp::TopicStatisticsState::Enable;
+[10.728s]              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.728s]              [32m[Kto_rcl_subscription_options[m[K
+[10.728s] [01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:31:49:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::TopicStatisticsState[m[K’ has not been declared
+[10.728s]      options.topic_stats_options.state = rclcpp::[01;31m[KTopicStatisticsState[m[K::Enable;
+[10.728s]                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.728s] [01m[K/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp:34:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktopic_stats_options[m[K’; did you mean ‘[01m[Kto_rcl_subscription_options[m[K’?
+[10.728s]      options.[01;31m[Ktopic_stats_options[m[K.publish_period = std::chrono::seconds(10);
+[10.729s]              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.729s]              [32m[Kto_rcl_subscription_options[m[K
+[11.407s] make[2]: *** [CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o] Error 1
+[11.407s] CMakeFiles/subscriber_member_function_with_topic_statistics.dir/build.make:62: recipe for target 'CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o' failed
+[11.407s] CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/subscriber_member_function_with_topic_statistics.dir/all' failed
+[11.407s] make[1]: *** [CMakeFiles/subscriber_member_function_with_topic_statistics.dir/all] Error 2
+[11.407s] make[1]: *** 正在等待未完成的任务....
+[12.549s] [ 87%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[12.685s] [ 87%] Built target subscriber_not_composable
+[12.686s] make: *** [all] Error 2
+[12.686s] Makefile:140: recipe for target 'all' failed
+[12.688s] Invoked command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake --build /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_subscriber -- -j2 -l2

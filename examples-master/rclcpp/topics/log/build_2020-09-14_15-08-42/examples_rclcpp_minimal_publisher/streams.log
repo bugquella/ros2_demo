@@ -1,0 +1,82 @@
+[0.021s] Invoking command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher
+[0.253s] -- The C compiler identification is GNU 7.5.0
+[0.318s] -- The CXX compiler identification is GNU 7.5.0
+[0.328s] -- Check for working C compiler: /usr/bin/cc
+[0.401s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.402s] -- Detecting C compiler ABI info
+[0.477s] -- Detecting C compiler ABI info - done
+[0.481s] -- Detecting C compile features
+[0.689s] -- Detecting C compile features - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.772s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Detecting CXX compile features
+[1.213s] -- Detecting CXX compile features - done
+[1.220s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.492s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.517s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.567s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.572s] -- Looking for pthread.h
+[1.653s] -- Looking for pthread.h - found
+[1.654s] -- Looking for pthread_create
+[1.720s] -- Looking for pthread_create - not found
+[1.721s] -- Looking for pthread_create in pthreads
+[1.782s] -- Looking for pthread_create in pthreads - not found
+[1.783s] -- Looking for pthread_create in pthread
+[1.850s] -- Looking for pthread_create in pthread - found
+[1.851s] -- Found Threads: TRUE  
+[1.893s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.930s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.023s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.025s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.025s] -- Configured cppcheck include dirs: 
+[2.026s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.027s] -- Added test 'lint_cmake' to check CMake code style
+[2.028s] -- Added test 'uncrustify' to check C / C++ code style
+[2.029s] -- Added test 'xmllint' to check XML markup files
+[2.032s] -- Configuring done
+[2.063s] -- Generating done
+[2.065s] -- Build files have been written to: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher
+[2.071s] Invoked command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher
+[2.073s] Invoking command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake --build /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[2.120s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[2.126s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[2.217s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.221s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[8.625s] [ 50%] [32m[1mLinking CXX executable publisher_lambda[0m
+[8.738s] [ 66%] [32m[1mLinking CXX executable publisher_member_function[0m
+[8.979s] [ 66%] Built target publisher_lambda
+[9.027s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[9.037s] [ 66%] Built target publisher_member_function
+[9.109s] [ 83%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[11.830s] [100%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[12.025s] [100%] Built target publisher_not_composable
+[12.040s] Invoked command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake --build /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[12.093s] Invoking command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake --build /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher --target install -- -j2 -l2
+[12.164s] [ 33%] Built target publisher_lambda
+[12.195s] [ 66%] Built target publisher_member_function
+[12.205s] [100%] Built target publisher_not_composable
+[12.225s] [36mInstall the project...[0m
+[12.235s] -- Install configuration: ""
+[12.235s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[12.236s] -- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[12.236s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[12.237s] -- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[12.237s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[12.237s] -- Set runtime path of "/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[12.238s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[12.239s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[12.239s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[12.239s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[12.239s] -- Installing: /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[12.249s] Invoked command in '/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_subscriber:/home/hegaozhi/dftc/test/ros2_demo/examples-master/rclpy/topics/install/examples_rclpy_minimal_publisher /usr/bin/cmake --build /home/hegaozhi/dftc/test/ros2_demo/examples-master/rclcpp/topics/build/examples_rclcpp_minimal_publisher --target install -- -j2 -l2
